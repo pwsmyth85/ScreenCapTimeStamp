@@ -1,6 +1,6 @@
 # ScreenCapTimeStamp
 
-A PowerShell script that takes a full screen screen capture and adds a timestamp in the top left corner.
+A PowerShell script that takes screen captures and adds a timestamp and user in a black bar at the top.
 
 When you right click the ps1 file it might not run the script. To fix this you could open powershell as administrator and run this command: 
 
