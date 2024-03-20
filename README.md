@@ -10,15 +10,17 @@ If it doesn't say RemoteSigned or Unrestricted then
 
 Set-ExecutionPolicy RemoteSigned
 
-If you don't want to change your execution policy or don't have admin rights the script will also run if you copy it into powershell and then run it.
+If you don't want to change your execution policy or don't have admin rights the script will also run if you copy it into powershell.
 
-Edit the script and add in the save path for the files before using on line 2.
+Edit the script and replace ADDYOURSAVEDIRECTORY with your save directory.
 
-If you have two or more screens the script will target your main screen.
+The script will ask you to choose a screen if you have two or more screens.
 
-The date and time text is white but you could change this to another color that will be seen on your background. Before using you may need to possition windows / shortcuts ect on your screen so nothing is in the top left corner. 
+Then you will be asked if you want a fullscreen capture.
 
-This was made because one of my lecturers on my MSC course specifically wanted date and time added to screencaps in my coursework. I couldn't find a free suitable program that I trusted to do this.
+If not you will be shown your screens dimensions in pixles and asked to specify possition of rectangle and its dimensions. It does take a bit of playing around with to get it right. (Still working on this part)
+
+This was made because on my MSC course I need to add date and time to screencaps in my coursework. I couldn't find a free suitable program that I trusted to do this.
 
 
 
