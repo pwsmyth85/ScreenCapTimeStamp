@@ -53,7 +53,7 @@ if ($fullscreen -eq "yes") {
 }
 
 # Specify the directory where you want to save the screenshot
-$saveDirectory = "C:\Users\pete\screencaps"
+$saveDirectory = "ADDYOURSAVEDIRECTORY"
 
 # Create the directory if it doesn't exist
 if (-not (Test-Path $saveDirectory)) {
